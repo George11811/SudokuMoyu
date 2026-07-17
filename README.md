@@ -45,3 +45,6 @@ export JAVA_HOME="C:/Program Files/Java/jdk-17.0.12+7"
 **File → Settings → Plugins → ⚙ → Install Plugin from Disk...**
 
 Select `SudokuMoyu-1.0.0.zip`, restart Rider, then open the **Sudoku** tab at the bottom.
+
+![pic](assets/entrance.png)
+![pic](assets/preview.png)<br>
