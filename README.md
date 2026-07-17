@@ -1,4 +1,4 @@
-# Sheet Analyzer — Rider Sudoku Plugin (Stealth Mode)
+# SudokuMoyu-1.0.1 — Rider Sudoku Plugin (Stealth Mode)
 
 A Sudoku game disguised as a data analysis tool for JetBrains Rider.
 Looks like work, plays like a game. 🐟
