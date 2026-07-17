@@ -1,0 +1,38 @@
+<idea-plugin>
+    <id>com.sudoku.plugin.SudokuMoyu</id>
+    <name>Sheet Analyzer</name>
+    <version>1.0.1</version>
+    <vendor email="dev@example.com">SudokuPlugin</vendor>
+
+    <description><![CDATA[
+        <h2>Sheet Analyzer</h2>
+        <p>Grid data analysis tool with validation engine. Disguise mode makes it look like a work tool.</p>
+        <p>Features:</p>
+        <ul>
+            <li>3 difficulty levels (Lv.1 / Lv.2 / Lv.3)</li>
+            <li>Note mode for candidate values</li>
+            <li>Constraint violation highlighting</li>
+            <li>Auto-fill assistant</li>
+            <li>Timer</li>
+            <li>One-click disguise toggle</li>
+        </ul>
+    ]]></description>
+
+    <change-notes><![CDATA[
+        <ul>
+            <li>1.0.1: Opacity slider, disguise improvements</li>
+        </ul>
+    ]]></change-notes>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow
+                id="Sudoku"
+                anchor="bottom"
+                icon="AllIcons.Actions.Find"
+                factoryClass="com.sudoku.plugin.SudokuToolWindowFactory"
+                canClose="true"
+                doNotActivateOnStart="false"/>
+    </extensions>
+</idea-plugin>
